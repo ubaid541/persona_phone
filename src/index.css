@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-headline: "Space Grotesk", sans-serif;
+  --font-body: "Manrope", sans-serif;
+  --font-label: "Inter", sans-serif;
+
+  --color-background: #0f131f;
+  --color-surface: #0f131f;
+  --color-surface-container: #1b1f2c;
+  --color-surface-container-low: #171b28;
+  --color-surface-container-high: #262a37;
+  --color-surface-container-highest: #313442;
+  --color-primary: #c3f5ff;
+  --color-primary-container: #00e5ff;
+  --color-secondary-container: #6200ea;
+  --color-on-background: #dfe2f3;
+  --color-on-surface-variant: #bac9cc;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-on-background font-body;
+  }
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.hero-glow {
+  background: radial-gradient(circle at 50% 50%, rgba(0, 229, 255, 0.15) 0%, rgba(98, 0, 234, 0.1) 50%, transparent 100%);
+}
