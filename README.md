@@ -1,17 +1,18 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+<!-- <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div> -->
+<img width="1200" height="475" alt="GHBanner" src="/project_image.png" />
 </div>
 
-# Run and deploy your AI Studio app
+# Introduction
 
-This contains everything you need to run your app locally.
+This web helps user to select there next phone based on there personaality. It uses gemini to analyze user based on a quiz and suggest a phone.
 
-View your app in AI Studio: https://ai.studio/apps/171e8a70-b27a-4b55-8d52-9fe4ebdedc49
+View your app : https://personaphone.netlify.app/
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js
 
 1. Install dependencies:
    `npm install`
