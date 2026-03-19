@@ -5,7 +5,7 @@ export const Navbar: React.FC<{ onStart: () => void }> = ({ onStart }) => {
     <nav className="fixed top-0 w-full z-50 bg-slate-950/40 backdrop-blur-xl border-b border-white/10 shadow-[0_8px_32px_0_rgba(98,0,234,0.1)]">
       <div className="flex justify-between items-center px-8 py-4 max-w-screen-2xl mx-auto">
         <div className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-violet-600 bg-clip-text text-transparent font-headline tracking-tight cursor-pointer" onClick={() => window.location.reload()}>
-          Luminescent Oracle
+          PersonaPhone
         </div>
         <div className="hidden md:flex items-center space-x-8 font-label text-xs uppercase tracking-widest">
           <a className="text-cyan-400 border-b-2 border-cyan-400 pb-1" href="#">Discovery</a>
